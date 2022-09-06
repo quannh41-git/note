@@ -12,3 +12,8 @@ git log --diff-filter=A -- <file name>
 ```
 git show <commit_id> --name-only
 ```
+
+# Delete the last commit
+```
+git reset --hard HEAD^
+```
