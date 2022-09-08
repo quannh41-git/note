@@ -49,8 +49,8 @@ gcc -o main main.o -L. <.a>
 |1) Code to run the file is in one executable file |1) Only the address of the library is provided in the   |
 |and gets copied into target application which     |target program so every program can access them without |
 |create standalone executable                      |creating copies                                         |
-|--------------------------------------------------|--------------------------------------------------------|
+|                                                  |                                                        |
 |2) It is locked into the program at compile time  |2) It act as separate file out of executable so can be  |
 |so cannot be modified without recompilation       |modified at any time without recompilation              |
-|--------------------------------------------------|--------------------------------------------------------|
+
 
