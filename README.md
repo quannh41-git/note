@@ -21,6 +21,11 @@ git show <commit_id> --name-only
 git reset --hard HEAD^
 ```
 
+## Check one commit is an ancestor of another commit
+```
+git merge-base A B
+```
+
 # Linux programming
 
 ## Static library
